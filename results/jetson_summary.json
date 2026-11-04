@@ -1,0 +1,1135 @@
+{
+  "power_modes": {
+    "15W": {
+      "nvpmodel": "NV Power Mode: 15W",
+      "idle_power_mW": {
+        "VDD_IN": 5899.375,
+        "VDD_CPU_GPU_CV": 1205.5208333333333,
+        "VDD_SOC": 1556.0416666666667
+      }
+    },
+    "MAXN_SUPER": {
+      "nvpmodel": "NV Power Mode: MAXN_SUPER",
+      "idle_power_mW": {
+        "VDD_IN": 6611.645833333333,
+        "VDD_CPU_GPU_CV": 1824.3333333333333,
+        "VDD_SOC": 1588.6666666666667
+      }
+    }
+  },
+  "accuracy": {
+    "night|yolo_A|fp32": {
+      "precision": 0.5508806888097811,
+      "recall": 0.43363534063123454,
+      "map50": 0.4512309315278509,
+      "map50_95": 0.18647611962170327,
+      "per_class_ap50": {
+        "car": 0.6955633799020606,
+        "person": 0.4481606091057533,
+        "bicycle": 0.20996880557573872
+      }
+    },
+    "full|yolo_A|fp32": {
+      "precision": 0.6942126190111847,
+      "recall": 0.5657956312802781,
+      "map50": 0.6208611210885459,
+      "map50_95": 0.2916404078122531,
+      "per_class_ap50": {
+        "car": 0.7854268453388019,
+        "person": 0.6274988176421781,
+        "bicycle": 0.44965770028465774
+      }
+    },
+    "night|yolo_A|fp16": {
+      "precision": 0.5506071005237138,
+      "recall": 0.43404445433498323,
+      "map50": 0.4518111797192188,
+      "map50_95": 0.18618168974626617,
+      "per_class_ap50": {
+        "car": 0.696057332897696,
+        "person": 0.4484261451496363,
+        "bicycle": 0.21095006111032422
+      }
+    },
+    "full|yolo_A|fp16": {
+      "precision": 0.6905380037855428,
+      "recall": 0.5661199505269813,
+      "map50": 0.6206697547960799,
+      "map50_95": 0.2914139046045321,
+      "per_class_ap50": {
+        "car": 0.7854499791911307,
+        "person": 0.6271655953913882,
+        "bicycle": 0.4493936898057209
+      }
+    },
+    "night|yolo_A|int8": {
+      "precision": 0.5552086371901915,
+      "recall": 0.4135942809877513,
+      "map50": 0.4378863605967453,
+      "map50_95": 0.1764827380237467,
+      "per_class_ap50": {
+        "car": 0.6748173610247696,
+        "person": 0.44168635955255425,
+        "bicycle": 0.197155361212912
+      }
+    },
+    "full|yolo_A|int8": {
+      "precision": 0.6571894058545381,
+      "recall": 0.5388826158195891,
+      "map50": 0.5893968067988737,
+      "map50_95": 0.2700295503399503,
+      "per_class_ap50": {
+        "car": 0.7774216636272366,
+        "person": 0.5934289384779161,
+        "bicycle": 0.39733981829146836
+      }
+    },
+    "night|yolo_B_s1|fp32": {
+      "precision": 0.626796954238054,
+      "recall": 0.5192043937815075,
+      "map50": 0.5814633133675324,
+      "map50_95": 0.2780207006579338,
+      "per_class_ap50": {
+        "car": 0.8467140822548157,
+        "person": 0.6972334666470714,
+        "bicycle": 0.20044239120071
+      }
+    },
+    "full|yolo_B_s1|fp32": {
+      "precision": 0.7373544360404264,
+      "recall": 0.6159744434095464,
+      "map50": 0.6848880204622447,
+      "map50_95": 0.34301230156408175,
+      "per_class_ap50": {
+        "car": 0.8540971272027263,
+        "person": 0.738677030565922,
+        "bicycle": 0.461889903618086
+      }
+    },
+    "night|yolo_B_s1|fp16": {
+      "precision": 0.628889123955529,
+      "recall": 0.5194987543510047,
+      "map50": 0.5814415356161485,
+      "map50_95": 0.2781736778663315,
+      "per_class_ap50": {
+        "car": 0.8460810861692516,
+        "person": 0.6994056307393213,
+        "bicycle": 0.19883788993987286
+      }
+    },
+    "full|yolo_B_s1|fp16": {
+      "precision": 0.7380223408488856,
+      "recall": 0.6159364898754628,
+      "map50": 0.6845758405309068,
+      "map50_95": 0.34262480346898433,
+      "per_class_ap50": {
+        "car": 0.8536084316146393,
+        "person": 0.7380528863378448,
+        "bicycle": 0.4620662036402365
+      }
+    },
+    "night|yolo_B_s1|int8": {
+      "precision": 0.5770599514025604,
+      "recall": 0.4976922407741393,
+      "map50": 0.5403325268141631,
+      "map50_95": 0.23831330303657197,
+      "per_class_ap50": {
+        "car": 0.8044190702493244,
+        "person": 0.586264572009807,
+        "bicycle": 0.2303139381833581
+      }
+    },
+    "full|yolo_B_s1|int8": {
+      "precision": 0.7015410183712469,
+      "recall": 0.5585169881094486,
+      "map50": 0.6358190720728985,
+      "map50_95": 0.30431198256392716,
+      "per_class_ap50": {
+        "car": 0.8333421642632929,
+        "person": 0.6683768831940027,
+        "bicycle": 0.4057381687614
+      }
+    },
+    "night|yolo_B_robust_s1|fp32": {
+      "precision": 0.6114605415824822,
+      "recall": 0.5200040721580047,
+      "map50": 0.572332859147548,
+      "map50_95": 0.25681191484138716,
+      "per_class_ap50": {
+        "car": 0.8119574333040607,
+        "person": 0.6708662815205237,
+        "bicycle": 0.2341748626180596
+      }
+    },
+    "full|yolo_B_robust_s1|fp32": {
+      "precision": 0.7362545160603838,
+      "recall": 0.6084728692189321,
+      "map50": 0.681953795219247,
+      "map50_95": 0.33481415383887503,
+      "per_class_ap50": {
+        "car": 0.840614587387046,
+        "person": 0.7201420774492077,
+        "bicycle": 0.4851047208214877
+      }
+    },
+    "night|yolo_B_robust_s1|fp16": {
+      "precision": 0.6087279007580118,
+      "recall": 0.5250604213069541,
+      "map50": 0.5722027217304159,
+      "map50_95": 0.25691143496121177,
+      "per_class_ap50": {
+        "car": 0.8104757095501751,
+        "person": 0.6730081491051756,
+        "bicycle": 0.23312430653589672
+      }
+    },
+    "full|yolo_B_robust_s1|fp16": {
+      "precision": 0.7304010433589029,
+      "recall": 0.6101214715641587,
+      "map50": 0.6812630295621572,
+      "map50_95": 0.335119622457355,
+      "per_class_ap50": {
+        "car": 0.839817667830401,
+        "person": 0.7210270997943733,
+        "bicycle": 0.4829443210616973
+      }
+    },
+    "night|yolo_B_robust_s1|int8": {
+      "precision": 0.5938342635277732,
+      "recall": 0.4638078168598138,
+      "map50": 0.4976738375181326,
+      "map50_95": 0.21561330923224528,
+      "per_class_ap50": {
+        "car": 0.7620823885578163,
+        "person": 0.5500230450891539,
+        "bicycle": 0.18091607890742756
+      }
+    },
+    "full|yolo_B_robust_s1|int8": {
+      "precision": 0.7107564713266333,
+      "recall": 0.5551209019417851,
+      "map50": 0.6234469051085255,
+      "map50_95": 0.2992325062504348,
+      "per_class_ap50": {
+        "car": 0.8161383305196369,
+        "person": 0.647504322756871,
+        "bicycle": 0.4066980620490688
+      }
+    },
+    "night|yolo_C_s1|fp32": {
+      "precision": 0.5729474484331977,
+      "recall": 0.5539328908791302,
+      "map50": 0.5915443371096473,
+      "map50_95": 0.281220095014433,
+      "per_class_ap50": {
+        "car": 0.8555394550704681,
+        "person": 0.7131892213079618,
+        "bicycle": 0.20590433495051208
+      }
+    },
+    "full|yolo_C_s1|fp32": {
+      "precision": 0.7233175363935969,
+      "recall": 0.6049702696378713,
+      "map50": 0.6832309937891333,
+      "map50_95": 0.3420579197349465,
+      "per_class_ap50": {
+        "car": 0.860174240016611,
+        "person": 0.7420736738910907,
+        "bicycle": 0.44744506745969814
+      }
+    },
+    "night|yolo_C_s1|fp16": {
+      "precision": 0.5712517437578305,
+      "recall": 0.5536169466086572,
+      "map50": 0.589993850195455,
+      "map50_95": 0.280803577036353,
+      "per_class_ap50": {
+        "car": 0.8573106923227432,
+        "person": 0.7074767760104828,
+        "bicycle": 0.2051940822531392
+      }
+    },
+    "full|yolo_C_s1|fp16": {
+      "precision": 0.7186305404879724,
+      "recall": 0.6050505792957342,
+      "map50": 0.6825935444748908,
+      "map50_95": 0.34184875700624917,
+      "per_class_ap50": {
+        "car": 0.8606197626856289,
+        "person": 0.7398650342800932,
+        "bicycle": 0.4472958364589506
+      }
+    },
+    "night|yolo_C_s1|int8": {
+      "precision": 0.5916339820766064,
+      "recall": 0.4851720363192409,
+      "map50": 0.523375018941841,
+      "map50_95": 0.24080404476671446,
+      "per_class_ap50": {
+        "car": 0.8143119630452726,
+        "person": 0.5959497088573003,
+        "bicycle": 0.15986338492294996
+      }
+    },
+    "full|yolo_C_s1|int8": {
+      "precision": 0.6972896008766241,
+      "recall": 0.5547291751814433,
+      "map50": 0.623970761850277,
+      "map50_95": 0.3042350638873976,
+      "per_class_ap50": {
+        "car": 0.8332046798712571,
+        "person": 0.6733078410887606,
+        "bicycle": 0.36539976459081336
+      }
+    },
+    "night|yolo_T|fp32": {
+      "precision": 0.8362380377784642,
+      "recall": 0.7205321158312367,
+      "map50": 0.7936797669578617,
+      "map50_95": 0.4136861634771424,
+      "per_class_ap50": {
+        "car": 0.9335620812141401,
+        "person": 0.8681159498962144,
+        "bicycle": 0.5793612697632304
+      }
+    },
+    "full|yolo_T|fp32": {
+      "precision": 0.7927885387082156,
+      "recall": 0.6702774730815425,
+      "map50": 0.7599582758031421,
+      "map50_95": 0.3967766509668503,
+      "per_class_ap50": {
+        "car": 0.8909784192558164,
+        "person": 0.8069904680003095,
+        "bicycle": 0.5819059401533004
+      }
+    },
+    "night|yolo_T|fp16": {
+      "precision": 0.8357113746401222,
+      "recall": 0.7214458671878115,
+      "map50": 0.7940233014766207,
+      "map50_95": 0.4134048242403241,
+      "per_class_ap50": {
+        "car": 0.9337340565692185,
+        "person": 0.8680843311902897,
+        "bicycle": 0.5802515166703537
+      }
+    },
+    "full|yolo_T|fp16": {
+      "precision": 0.7925137113419822,
+      "recall": 0.6700081564328485,
+      "map50": 0.7597191158773423,
+      "map50_95": 0.39670447375285744,
+      "per_class_ap50": {
+        "car": 0.8911949204603228,
+        "person": 0.8068930840240557,
+        "bicycle": 0.5810693431476481
+      }
+    },
+    "night|yolo_T|int8": {
+      "precision": 0.8345687918133112,
+      "recall": 0.623060872975188,
+      "map50": 0.730107417072643,
+      "map50_95": 0.3760608798262309,
+      "per_class_ap50": {
+        "car": 0.9261181500472521,
+        "person": 0.8136187896953953,
+        "bicycle": 0.4505853114752816
+      }
+    },
+    "full|yolo_T|int8": {
+      "precision": 0.7922526772805728,
+      "recall": 0.6373808829932509,
+      "map50": 0.7214508683104822,
+      "map50_95": 0.36899627049730105,
+      "per_class_ap50": {
+        "car": 0.8832760140850681,
+        "person": 0.7661473873915242,
+        "bicycle": 0.5149292034548545
+      }
+    }
+  },
+  "laptop_reference": {
+    "night|yolo_A": {
+      "precision": 0.5453380835099395,
+      "recall": 0.4344738078344337,
+      "map50": 0.45062078765760266,
+      "map50_95": 0.1862011656817216,
+      "per_class_ap50": {
+        "car": 0.6958637026382667,
+        "person": 0.4469437119580305,
+        "bicycle": 0.20905494837651084
+      }
+    },
+    "night|yolo_B_s1": {
+      "precision": 0.6266777867086716,
+      "recall": 0.5190653005688955,
+      "map50": 0.5820204670129533,
+      "map50_95": 0.2783735431352518,
+      "per_class_ap50": {
+        "car": 0.8462701039181345,
+        "person": 0.6971733766575312,
+        "bicycle": 0.20261792046319385
+      }
+    },
+    "night|yolo_B_robust_s1": {
+      "precision": 0.6133396144736932,
+      "recall": 0.5193118523804026,
+      "map50": 0.5723327838842102,
+      "map50_95": 0.2567284675851707,
+      "per_class_ap50": {
+        "car": 0.8121791865846386,
+        "person": 0.6709039281245973,
+        "bicycle": 0.2339152369433945
+      }
+    },
+    "night|yolo_T": {
+      "precision": 0.8360616914472289,
+      "recall": 0.7211068700525125,
+      "map50": 0.7935794997574703,
+      "map50_95": 0.41410317387517964,
+      "per_class_ap50": {
+        "car": 0.9335114632742687,
+        "person": 0.8680549045629058,
+        "bicycle": 0.5791721314352365
+      }
+    },
+    "night|yolo_C_s1": {
+      "precision": 0.5837663678233861,
+      "recall": 0.5511662056258907,
+      "map50": 0.5912786682108399,
+      "map50_95": 0.2809269230408329,
+      "per_class_ap50": {
+        "car": 0.8563047396527098,
+        "person": 0.7127235921912405,
+        "bicycle": 0.20480767278856932
+      }
+    },
+    "full|yolo_A": {
+      "precision": 0.6910116144309143,
+      "recall": 0.5662195137264724,
+      "map50": 0.6207908938625085,
+      "map50_95": 0.29164718765560044,
+      "per_class_ap50": {
+        "car": 0.7854979425629651,
+        "person": 0.6273546159290943,
+        "bicycle": 0.44952012309546613
+      }
+    },
+    "full|yolo_B_s1": {
+      "precision": 0.7375929130593096,
+      "recall": 0.6158296050669286,
+      "map50": 0.6846876102663076,
+      "map50_95": 0.3430069121128639,
+      "per_class_ap50": {
+        "car": 0.8539588455260677,
+        "person": 0.7390354386790918,
+        "bicycle": 0.46106854659376345
+      }
+    },
+    "full|yolo_B_robust_s1": {
+      "precision": 0.7348349347437487,
+      "recall": 0.6081328205903606,
+      "map50": 0.6820509500890776,
+      "map50_95": 0.3348165614405468,
+      "per_class_ap50": {
+        "car": 0.8407293025788032,
+        "person": 0.7205677077438466,
+        "bicycle": 0.48485583994458303
+      }
+    },
+    "full|yolo_T": {
+      "precision": 0.7928892131543779,
+      "recall": 0.6705917397806714,
+      "map50": 0.7599371377306658,
+      "map50_95": 0.3965956200833101,
+      "per_class_ap50": {
+        "car": 0.8911438763366576,
+        "person": 0.8071707503154044,
+        "bicycle": 0.5814967865399356
+      }
+    },
+    "full|yolo_C_s1": {
+      "precision": 0.7220430067540912,
+      "recall": 0.6054579977724845,
+      "map50": 0.6831747108073719,
+      "map50_95": 0.34197574452310353,
+      "per_class_ap50": {
+        "car": 0.8602031993278405,
+        "person": 0.7418974208874023,
+        "bicycle": 0.44742351220687304
+      }
+    }
+  },
+  "speed": {
+    "15W": {
+      "yolo_A_fp32": {
+        "gpu_ms_median": 10.0605,
+        "gpu_ms_p99": 14.0859,
+        "host_latency_ms_median": 10.5508,
+        "overhead_vs_A_ms": 0.0,
+        "overhead_vs_A_pct": 0.0,
+        "fps": 98.4399,
+        "board_W": 12.32749074074074,
+        "board_W_above_idle": 6.428115740740741,
+        "mJ_per_frame": 125.22859877692625
+      },
+      "yolo_B_s1_fp32": {
+        "gpu_ms_median": 11.0225,
+        "gpu_ms_p99": 15.2432,
+        "host_latency_ms_median": 11.625,
+        "overhead_vs_A_ms": 0.9620000000000015,
+        "overhead_vs_A_pct": 9.562148998558737,
+        "fps": 89.4358,
+        "board_W": 12.575592592592592,
+        "board_W_above_idle": 6.676217592592592,
+        "mJ_per_frame": 140.61027678617057
+      },
+      "yolo_B_robust_s1_fp32": {
+        "gpu_ms_median": 11.0195,
+        "gpu_ms_p99": 15.8276,
+        "host_latency_ms_median": 11.6172,
+        "overhead_vs_A_ms": 0.9590000000000014,
+        "overhead_vs_A_pct": 9.532329407087138,
+        "fps": 89.4978,
+        "board_W": 12.482037037037037,
+        "board_W_above_idle": 6.582662037037037,
+        "mJ_per_frame": 139.46752922459586
+      },
+      "yolo_C_s1_fp32": {
+        "gpu_ms_median": 11.8945,
+        "gpu_ms_p99": 16.0752,
+        "host_latency_ms_median": 12.416,
+        "overhead_vs_A_ms": 1.8340000000000014,
+        "overhead_vs_A_pct": 18.22971025296955,
+        "fps": 82.6301,
+        "board_W": 12.537,
+        "board_W_above_idle": 6.637625000000001,
+        "mJ_per_frame": 151.72437162728838
+      },
+      "yolo_T_fp32": {
+        "gpu_ms_median": 10.5669,
+        "gpu_ms_p99": 14.561,
+        "host_latency_ms_median": 10.7041,
+        "overhead_vs_A_ms": 0.5064000000000011,
+        "overhead_vs_A_pct": 5.033547040405558,
+        "fps": 92.9391,
+        "board_W": 12.430712962962964,
+        "board_W_above_idle": 6.531337962962964,
+        "mJ_per_frame": 133.75116568767035
+      },
+      "yolo_A_fp16": {
+        "gpu_ms_median": 5.72949,
+        "gpu_ms_p99": 8.99805,
+        "host_latency_ms_median": 6.25977,
+        "overhead_vs_A_ms": 0.0,
+        "overhead_vs_A_pct": 0.0,
+        "fps": 172.645,
+        "board_W": 11.420666666666666,
+        "board_W_above_idle": 5.521291666666666,
+        "mJ_per_frame": 66.15115796383715
+      },
+      "yolo_B_s1_fp16": {
+        "gpu_ms_median": 6.52881,
+        "gpu_ms_p99": 9.83765,
+        "host_latency_ms_median": 7.10645,
+        "overhead_vs_A_ms": 0.7993199999999998,
+        "overhead_vs_A_pct": 13.950979930150849,
+        "fps": 151.639,
+        "board_W": 11.72462962962963,
+        "board_W_above_idle": 5.82525462962963,
+        "mJ_per_frame": 77.3193547150115
+      },
+      "yolo_B_robust_s1_fp16": {
+        "gpu_ms_median": 6.54248,
+        "gpu_ms_p99": 9.91406,
+        "host_latency_ms_median": 7.12109,
+        "overhead_vs_A_ms": 0.8129900000000001,
+        "overhead_vs_A_pct": 14.189570101352826,
+        "fps": 151.089,
+        "board_W": 11.704083333333333,
+        "board_W_above_idle": 5.804708333333333,
+        "mJ_per_frame": 77.46482757403473
+      },
+      "yolo_C_s1_fp16": {
+        "gpu_ms_median": 7.04492,
+        "gpu_ms_p99": 10.4326,
+        "host_latency_ms_median": 7.6582,
+        "overhead_vs_A_ms": 1.31543,
+        "overhead_vs_A_pct": 22.95893700835502,
+        "fps": 139.608,
+        "board_W": 11.710888888888888,
+        "board_W_above_idle": 5.811513888888888,
+        "mJ_per_frame": 83.88408177818526
+      },
+      "yolo_T_fp16": {
+        "gpu_ms_median": 6.16113,
+        "gpu_ms_p99": 9.49512,
+        "host_latency_ms_median": 6.30664,
+        "overhead_vs_A_ms": 0.4316399999999998,
+        "overhead_vs_A_pct": 7.533654827916617,
+        "fps": 159.677,
+        "board_W": 11.393,
+        "board_W_above_idle": 5.493625000000001,
+        "mJ_per_frame": 71.3502883946968
+      },
+      "yolo_A_int8": {
+        "gpu_ms_median": 4.13184,
+        "gpu_ms_p99": 4.14453,
+        "host_latency_ms_median": 4.54785,
+        "overhead_vs_A_ms": 0.0,
+        "overhead_vs_A_pct": 0.0,
+        "fps": 241.433,
+        "board_W": 10.395259259259259,
+        "board_W_above_idle": 4.495884259259259,
+        "mJ_per_frame": 43.05649707893809
+      },
+      "yolo_B_s1_int8": {
+        "gpu_ms_median": 4.70801,
+        "gpu_ms_p99": 4.73633,
+        "host_latency_ms_median": 5.27881,
+        "overhead_vs_A_ms": 0.5761699999999994,
+        "overhead_vs_A_pct": 13.944634835811632,
+        "fps": 211.368,
+        "board_W": 10.62936111111111,
+        "board_W_above_idle": 4.729986111111111,
+        "mJ_per_frame": 50.288412205779075
+      },
+      "yolo_B_robust_s1_int8": {
+        "gpu_ms_median": 4.74121,
+        "gpu_ms_p99": 4.75879,
+        "host_latency_ms_median": 5.30957,
+        "overhead_vs_A_ms": 0.6093699999999993,
+        "overhead_vs_A_pct": 14.748150944857478,
+        "fps": 210.384,
+        "board_W": 10.575120370370371,
+        "board_W_above_idle": 4.675745370370371,
+        "mJ_per_frame": 50.2658014410334
+      },
+      "yolo_C_s1_int8": {
+        "gpu_ms_median": 5.23828,
+        "gpu_ms_p99": 6.75488,
+        "host_latency_ms_median": 5.77637,
+        "overhead_vs_A_ms": 1.1064399999999992,
+        "overhead_vs_A_pct": 26.778384448574947,
+        "fps": 188.806,
+        "board_W": 10.679083333333335,
+        "board_W_above_idle": 4.779708333333335,
+        "mJ_per_frame": 56.56114389020123
+      },
+      "yolo_T_int8": {
+        "gpu_ms_median": 4.71661,
+        "gpu_ms_p99": 6.18823,
+        "host_latency_ms_median": 4.84863,
+        "overhead_vs_A_ms": 0.5847699999999998,
+        "overhead_vs_A_pct": 14.152774550805445,
+        "fps": 209.828,
+        "board_W": 10.295333333333334,
+        "board_W_above_idle": 4.395958333333334,
+        "mJ_per_frame": 49.06558387504687
+      },
+      "nanodet_A_fp32": {
+        "gpu_ms_median": 7.56787,
+        "gpu_ms_p99": 11.1094,
+        "host_latency_ms_median": 7.77148,
+        "overhead_vs_A_ms": 0.0,
+        "overhead_vs_A_pct": 0.0,
+        "fps": 130.719,
+        "board_W": 10.399212962962963,
+        "board_W_above_idle": 4.499837962962963,
+        "mJ_per_frame": 79.55395132278372
+      },
+      "nanodet_B_s1_fp32": {
+        "gpu_ms_median": 8.17578,
+        "gpu_ms_p99": 12.0303,
+        "host_latency_ms_median": 8.43555,
+        "overhead_vs_A_ms": 0.6079099999999995,
+        "overhead_vs_A_pct": 8.03277540444008,
+        "fps": 120.981,
+        "board_W": 10.465685185185185,
+        "board_W_above_idle": 4.566310185185185,
+        "mJ_per_frame": 86.50684971346894
+      },
+      "nanodet_C_s1_fp32": {
+        "gpu_ms_median": 8.69727,
+        "gpu_ms_p99": 12.5103,
+        "host_latency_ms_median": 8.95654,
+        "overhead_vs_A_ms": 1.1293999999999995,
+        "overhead_vs_A_pct": 14.923617873985673,
+        "fps": 113.77,
+        "board_W": 10.624787037037036,
+        "board_W_above_idle": 4.725412037037036,
+        "mJ_per_frame": 93.38830128361639
+      },
+      "nanodet_A_fp16": {
+        "gpu_ms_median": 5.48047,
+        "gpu_ms_p99": 10.0723,
+        "host_latency_ms_median": 5.72559,
+        "overhead_vs_A_ms": 0.0,
+        "overhead_vs_A_pct": 0.0,
+        "fps": 177.148,
+        "board_W": 9.545935185185185,
+        "board_W_above_idle": 3.6465601851851845,
+        "mJ_per_frame": 53.88677933245187
+      },
+      "nanodet_B_s1_fp16": {
+        "gpu_ms_median": 5.89941,
+        "gpu_ms_p99": 7.95312,
+        "host_latency_ms_median": 6.16797,
+        "overhead_vs_A_ms": 0.4189399999999992,
+        "overhead_vs_A_pct": 7.644234892262875,
+        "fps": 167.96,
+        "board_W": 9.700481481481482,
+        "board_W_above_idle": 3.801106481481482,
+        "mJ_per_frame": 57.75471232127579
+      },
+      "nanodet_C_s1_fp16": {
+        "gpu_ms_median": 6.1582,
+        "gpu_ms_p99": 9.42383,
+        "host_latency_ms_median": 6.46191,
+        "overhead_vs_A_ms": 0.6777299999999995,
+        "overhead_vs_A_pct": 12.366275155233026,
+        "fps": 160.828,
+        "board_W": 9.860870370370371,
+        "board_W_above_idle": 3.961495370370371,
+        "mJ_per_frame": 61.313144293098034
+      },
+      "nanodet_A_int8": {
+        "gpu_ms_median": 4.91016,
+        "gpu_ms_p99": 4.9248,
+        "host_latency_ms_median": 5.12402,
+        "overhead_vs_A_ms": 0.0,
+        "overhead_vs_A_pct": 0.0,
+        "fps": 202.767,
+        "board_W": 9.143611111111111,
+        "board_W_above_idle": 3.2442361111111113,
+        "mJ_per_frame": 45.09417760834412
+      },
+      "nanodet_B_s1_int8": {
+        "gpu_ms_median": 5.30469,
+        "gpu_ms_p99": 5.32031,
+        "host_latency_ms_median": 5.59912,
+        "overhead_vs_A_ms": 0.3945299999999996,
+        "overhead_vs_A_pct": 8.034972383791965,
+        "fps": 188.036,
+        "board_W": 9.237944444444445,
+        "board_W_above_idle": 3.3385694444444445,
+        "mJ_per_frame": 49.128594760814124
+      },
+      "nanodet_C_s1_int8": {
+        "gpu_ms_median": 5.57324,
+        "gpu_ms_p99": 5.5896,
+        "host_latency_ms_median": 5.86865,
+        "overhead_vs_A_ms": 0.6630799999999999,
+        "overhead_vs_A_pct": 13.50424426087948,
+        "fps": 178.987,
+        "board_W": 9.383777777777777,
+        "board_W_above_idle": 3.4844027777777766,
+        "mJ_per_frame": 52.42714709882716
+      }
+    },
+    "MAXN_SUPER": {
+      "yolo_A_fp32": {
+        "gpu_ms_median": 7.61914,
+        "gpu_ms_p99": 11.0137,
+        "host_latency_ms_median": 8.21387,
+        "overhead_vs_A_ms": 0.0,
+        "overhead_vs_A_pct": 0.0,
+        "fps": 129.681,
+        "board_W": 15.673388888888889,
+        "board_W_above_idle": 9.061743055555556,
+        "mJ_per_frame": 120.86110447088538
+      },
+      "yolo_B_s1_fp32": {
+        "gpu_ms_median": 8.46313,
+        "gpu_ms_p99": 11.9355,
+        "host_latency_ms_median": 9.21411,
+        "overhead_vs_A_ms": 0.8439899999999998,
+        "overhead_vs_A_pct": 11.077234438532429,
+        "fps": 116.18,
+        "board_W": 15.831990740740741,
+        "board_W_above_idle": 9.220344907407409,
+        "mJ_per_frame": 136.2712234527521
+      },
+      "yolo_B_robust_s1_fp32": {
+        "gpu_ms_median": 8.42871,
+        "gpu_ms_p99": 11.6855,
+        "host_latency_ms_median": 9.17676,
+        "overhead_vs_A_ms": 0.8095700000000008,
+        "overhead_vs_A_pct": 10.62547741608634,
+        "fps": 116.929,
+        "board_W": 15.806481481481482,
+        "board_W_above_idle": 9.19483564814815,
+        "mJ_per_frame": 135.18016472801
+      },
+      "yolo_C_s1_fp32": {
+        "gpu_ms_median": 9.10547,
+        "gpu_ms_p99": 12.5664,
+        "host_latency_ms_median": 9.82458,
+        "overhead_vs_A_ms": 1.4863300000000006,
+        "overhead_vs_A_pct": 19.50784471738281,
+        "fps": 108.056,
+        "board_W": 15.750703703703705,
+        "board_W_above_idle": 9.139057870370372,
+        "mJ_per_frame": 145.76426763625994
+      },
+      "yolo_T_fp32": {
+        "gpu_ms_median": 7.87012,
+        "gpu_ms_p99": 11.2666,
+        "host_latency_ms_median": 8.0,
+        "overhead_vs_A_ms": 0.2509800000000002,
+        "overhead_vs_A_pct": 3.2940725593702203,
+        "fps": 125.272,
+        "board_W": 15.838861111111111,
+        "board_W_above_idle": 9.227215277777777,
+        "mJ_per_frame": 126.4357646649779
+      },
+      "yolo_A_fp16": {
+        "gpu_ms_median": 4.06226,
+        "gpu_ms_p99": 5.39062,
+        "host_latency_ms_median": 4.57422,
+        "overhead_vs_A_ms": 0.0,
+        "overhead_vs_A_pct": 0.0,
+        "fps": 242.941,
+        "board_W": 14.921064814814816,
+        "board_W_above_idle": 8.309418981481482,
+        "mJ_per_frame": 61.41847121241295
+      },
+      "yolo_B_s1_fp16": {
+        "gpu_ms_median": 4.73926,
+        "gpu_ms_p99": 6.22363,
+        "host_latency_ms_median": 5.34473,
+        "overhead_vs_A_ms": 0.6769999999999996,
+        "overhead_vs_A_pct": 16.665599936980882,
+        "fps": 208.238,
+        "board_W": 15.062611111111112,
+        "board_W_above_idle": 8.45096527777778,
+        "mJ_per_frame": 72.33363320388743
+      },
+      "yolo_B_robust_s1_fp16": {
+        "gpu_ms_median": 4.76416,
+        "gpu_ms_p99": 6.20508,
+        "host_latency_ms_median": 5.37109,
+        "overhead_vs_A_ms": 0.7019000000000002,
+        "overhead_vs_A_pct": 17.27855922565272,
+        "fps": 207.295,
+        "board_W": 15.002944444444445,
+        "board_W_above_idle": 8.391298611111111,
+        "mJ_per_frame": 72.37484958365829
+      },
+      "yolo_C_s1_fp16": {
+        "gpu_ms_median": 5.14111,
+        "gpu_ms_p99": 6.43555,
+        "host_latency_ms_median": 5.73145,
+        "overhead_vs_A_ms": 1.07885,
+        "overhead_vs_A_pct": 26.557876649943626,
+        "fps": 192.562,
+        "board_W": 15.00762962962963,
+        "board_W_above_idle": 8.395983796296296,
+        "mJ_per_frame": 77.93661070008427
+      },
+      "yolo_T_fp16": {
+        "gpu_ms_median": 4.31055,
+        "gpu_ms_p99": 5.8457,
+        "host_latency_ms_median": 4.4375,
+        "overhead_vs_A_ms": 0.2482899999999999,
+        "overhead_vs_A_pct": 6.112114931097465,
+        "fps": 228.906,
+        "board_W": 14.862657407407408,
+        "board_W_above_idle": 8.251011574074074,
+        "mJ_per_frame": 64.92908620747122
+      },
+      "yolo_A_int8": {
+        "gpu_ms_median": 2.93359,
+        "gpu_ms_p99": 2.95703,
+        "host_latency_ms_median": 3.33984,
+        "overhead_vs_A_ms": 0.0,
+        "overhead_vs_A_pct": 0.0,
+        "fps": 339.622,
+        "board_W": 13.296222222222223,
+        "board_W_above_idle": 6.68457638888889,
+        "mJ_per_frame": 39.150061604437354
+      },
+      "yolo_B_s1_int8": {
+        "gpu_ms_median": 3.36914,
+        "gpu_ms_p99": 3.4043,
+        "host_latency_ms_median": 3.95471,
+        "overhead_vs_A_ms": 0.43554999999999966,
+        "overhead_vs_A_pct": 14.846996342365484,
+        "fps": 295.943,
+        "board_W": 13.459944444444446,
+        "board_W_above_idle": 6.848298611111113,
+        "mJ_per_frame": 45.48154355549699
+      },
+      "yolo_B_robust_s1_int8": {
+        "gpu_ms_median": 3.38965,
+        "gpu_ms_p99": 3.41602,
+        "host_latency_ms_median": 3.97559,
+        "overhead_vs_A_ms": 0.4560599999999999,
+        "overhead_vs_A_pct": 15.54613971277513,
+        "fps": 293.915,
+        "board_W": 13.334740740740742,
+        "board_W_above_idle": 6.7230949074074084,
+        "mJ_per_frame": 45.36937801997428
+      },
+      "yolo_C_s1_int8": {
+        "gpu_ms_median": 3.74609,
+        "gpu_ms_p99": 3.77734,
+        "host_latency_ms_median": 4.24414,
+        "overhead_vs_A_ms": 0.8125,
+        "overhead_vs_A_pct": 27.696440197846325,
+        "fps": 266.288,
+        "board_W": 13.505222222222223,
+        "board_W_above_idle": 6.8935763888888895,
+        "mJ_per_frame": 50.716600906620734
+      },
+      "yolo_T_int8": {
+        "gpu_ms_median": 3.24414,
+        "gpu_ms_p99": 3.25635,
+        "host_latency_ms_median": 3.35547,
+        "overhead_vs_A_ms": 0.31054999999999966,
+        "overhead_vs_A_pct": 10.58600554269682,
+        "fps": 307.579,
+        "board_W": 13.185759259259259,
+        "board_W_above_idle": 6.574113425925925,
+        "mJ_per_frame": 42.869504287546484
+      },
+      "nanodet_A_fp32": {
+        "gpu_ms_median": 5.44727,
+        "gpu_ms_p99": 6.83301,
+        "host_latency_ms_median": 5.64014,
+        "overhead_vs_A_ms": 0.0,
+        "overhead_vs_A_pct": 0.0,
+        "fps": 181.916,
+        "board_W": 13.278675925925926,
+        "board_W_above_idle": 6.667030092592593,
+        "mJ_per_frame": 72.99344711804308
+      },
+      "nanodet_B_s1_fp32": {
+        "gpu_ms_median": 5.91211,
+        "gpu_ms_p99": 7.60352,
+        "host_latency_ms_median": 6.16113,
+        "overhead_vs_A_ms": 0.4648400000000006,
+        "overhead_vs_A_pct": 8.533448865211392,
+        "fps": 167.664,
+        "board_W": 13.330981481481482,
+        "board_W_above_idle": 6.7193356481481485,
+        "mJ_per_frame": 79.51010044780921
+      },
+      "nanodet_C_s1_fp32": {
+        "gpu_ms_median": 6.39648,
+        "gpu_ms_p99": 9.17627,
+        "host_latency_ms_median": 6.66504,
+        "overhead_vs_A_ms": 0.9492100000000008,
+        "overhead_vs_A_pct": 17.425425947309403,
+        "fps": 155.045,
+        "board_W": 13.336657407407406,
+        "board_W_above_idle": 6.725011574074073,
+        "mJ_per_frame": 86.0179780541611
+      },
+      "nanodet_A_fp16": {
+        "gpu_ms_median": 3.74316,
+        "gpu_ms_p99": 4.93066,
+        "host_latency_ms_median": 4.02637,
+        "overhead_vs_A_ms": 0.0,
+        "overhead_vs_A_pct": 0.0,
+        "fps": 264.62,
+        "board_W": 12.342925925925925,
+        "board_W_above_idle": 5.731280092592592,
+        "mJ_per_frame": 46.643964650918015
+      },
+      "nanodet_B_s1_fp16": {
+        "gpu_ms_median": 4.04395,
+        "gpu_ms_p99": 5.23633,
+        "host_latency_ms_median": 4.33203,
+        "overhead_vs_A_ms": 0.30078999999999967,
+        "overhead_vs_A_pct": 8.035723826926972,
+        "fps": 244.847,
+        "board_W": 12.616796296296295,
+        "board_W_above_idle": 6.005150462962962,
+        "mJ_per_frame": 51.52930726656359
+      },
+      "nanodet_C_s1_fp16": {
+        "gpu_ms_median": 4.27734,
+        "gpu_ms_p99": 5.4541,
+        "host_latency_ms_median": 4.59766,
+        "overhead_vs_A_ms": 0.5341799999999997,
+        "overhead_vs_A_pct": 14.27082999390888,
+        "fps": 231.38,
+        "board_W": 12.668787037037037,
+        "board_W_above_idle": 6.057141203703703,
+        "mJ_per_frame": 54.75316378700422
+      },
+      "nanodet_A_int8": {
+        "gpu_ms_median": 3.40039,
+        "gpu_ms_p99": 3.41211,
+        "host_latency_ms_median": 3.60742,
+        "overhead_vs_A_ms": 0.0,
+        "overhead_vs_A_pct": 0.0,
+        "fps": 293.708,
+        "board_W": 11.563712962962963,
+        "board_W_above_idle": 4.95206712962963,
+        "mJ_per_frame": 39.371460644459674
+      },
+      "nanodet_B_s1_int8": {
+        "gpu_ms_median": 3.69141,
+        "gpu_ms_p99": 3.71289,
+        "host_latency_ms_median": 3.97266,
+        "overhead_vs_A_ms": 0.29102000000000006,
+        "overhead_vs_A_pct": 8.558430062434017,
+        "fps": 270.22,
+        "board_W": 11.684083333333334,
+        "board_W_above_idle": 5.0724375,
+        "mJ_per_frame": 43.239150815384995
+      },
+      "nanodet_C_s1_int8": {
+        "gpu_ms_median": 3.8623,
+        "gpu_ms_p99": 3.88477,
+        "host_latency_ms_median": 4.15625,
+        "overhead_vs_A_ms": 0.46191000000000004,
+        "overhead_vs_A_pct": 13.58403006713936,
+        "fps": 258.16,
+        "board_W": 11.817074074074075,
+        "board_W_above_idle": 5.2054282407407415,
+        "mJ_per_frame": 45.77422557357481
+      }
+    }
+  },
+  "pipeline": {
+    "yolo_A|fp32": {
+      "median_ms": {
+        "preprocess": 12.90024199988693,
+        "inference": 11.605822000092303,
+        "nms": 6.172122000180025,
+        "total": 30.81596999982139
+      },
+      "fps_end_to_end": 32.45070656564749
+    },
+    "yolo_A|fp16": {
+      "median_ms": {
+        "preprocess": 12.030965999883847,
+        "inference": 7.230005999872446,
+        "nms": 6.273591000081069,
+        "total": 25.660746000085055
+      },
+      "fps_end_to_end": 38.97002838486011
+    },
+    "yolo_A|int8": {
+      "median_ms": {
+        "preprocess": 11.98116000000482,
+        "inference": 5.709178999950382,
+        "nms": 6.837531999963176,
+        "total": 24.728931000026932
+      },
+      "fps_end_to_end": 40.43846456601423
+    },
+    "yolo_B_s1|fp32": {
+      "median_ms": {
+        "preprocess": 12.0426360001602,
+        "inference": 12.737832000084381,
+        "nms": 5.684528000074351,
+        "total": 30.6495410000025
+      },
+      "fps_end_to_end": 32.626916011561754
+    },
+    "yolo_B_s1|fp16": {
+      "median_ms": {
+        "preprocess": 12.063132000093901,
+        "inference": 8.345847000100548,
+        "nms": 5.687006000016481,
+        "total": 26.269082999988314
+      },
+      "fps_end_to_end": 38.06756406382533
+    },
+    "yolo_B_s1|int8": {
+      "median_ms": {
+        "preprocess": 11.998752999943463,
+        "inference": 6.494380000049205,
+        "nms": 5.757740999797534,
+        "total": 24.47488899997552
+      },
+      "fps_end_to_end": 40.8582036879105
+    },
+    "yolo_B_robust_s1|fp32": {
+      "median_ms": {
+        "preprocess": 12.154933000147139,
+        "inference": 12.743512000042756,
+        "nms": 5.4497279998031445,
+        "total": 30.444773999988683
+      },
+      "fps_end_to_end": 32.84635977262869
+    },
+    "yolo_B_robust_s1|fp16": {
+      "median_ms": {
+        "preprocess": 12.111497000205418,
+        "inference": 8.36894899998697,
+        "nms": 5.40219899994554,
+        "total": 26.03768700009823
+      },
+      "fps_end_to_end": 38.40586915405456
+    },
+    "yolo_B_robust_s1|int8": {
+      "median_ms": {
+        "preprocess": 12.097462000156156,
+        "inference": 6.537763999858726,
+        "nms": 5.410653000126331,
+        "total": 24.194082000121853
+      },
+      "fps_end_to_end": 41.33242170523203
+    },
+    "yolo_C_s1|fp32": {
+      "median_ms": {
+        "preprocess": 12.027153000190083,
+        "inference": 13.56904899989786,
+        "nms": 5.730665000100998,
+        "total": 31.468035999978383
+      },
+      "fps_end_to_end": 31.77827812325774
+    },
+    "yolo_C_s1|fp16": {
+      "median_ms": {
+        "preprocess": 12.080796000191185,
+        "inference": 8.86314600006699,
+        "nms": 5.736112000022331,
+        "total": 26.84931599992524
+      },
+      "fps_end_to_end": 37.244896667117494
+    },
+    "yolo_C_s1|int8": {
+      "median_ms": {
+        "preprocess": 12.01525000010406,
+        "inference": 7.068351000043549,
+        "nms": 5.83886899994468,
+        "total": 25.084830999958285
+      },
+      "fps_end_to_end": 39.86472940565806
+    },
+    "yolo_T|fp32": {
+      "median_ms": {
+        "preprocess": 11.974237000003995,
+        "inference": 11.584747999904721,
+        "nms": 4.35270799994214,
+        "total": 28.085304999876826
+      },
+      "fps_end_to_end": 35.605808803015876
+    },
+    "yolo_T|fp16": {
+      "median_ms": {
+        "preprocess": 11.999910999975327,
+        "inference": 7.301723999944443,
+        "nms": 4.372018000140088,
+        "total": 23.854759999949238
+      },
+      "fps_end_to_end": 41.92035467982608
+    },
+    "yolo_T|int8": {
+      "median_ms": {
+        "preprocess": 11.997794999842881,
+        "inference": 5.718464000210588,
+        "nms": 3.922771999896213,
+        "total": 21.81942899983369
+      },
+      "fps_end_to_end": 45.8307135355202
+    }
+  }
+}

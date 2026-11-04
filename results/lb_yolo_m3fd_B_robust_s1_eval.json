@@ -1,0 +1,28 @@
+{
+  "run": {
+    "dataset": "m3fd",
+    "config": "B_robust",
+    "seed": 1
+  },
+  "run_name": "lb_yolo_m3fd_B_robust_s1",
+  "best_epoch": 28,
+  "best_holdout_loss": 18.049650578271773,
+  "trainable_params": 25704,
+  "train_hours": 0.6279825726482603,
+  "eval": {
+    "full": {
+      "precision": 0.8712660532708171,
+      "recall": 0.7265750990595728,
+      "map50": 0.7974672013710272,
+      "map50_95": 0.510485989511032,
+      "per_class_ap50": {
+        "Bus": 0.8801082387932451,
+        "Car": 0.8847654181778593,
+        "Lamp": 0.7832848741197889,
+        "Motorcycle": 0.715392214752941,
+        "People": 0.7606321838267682,
+        "Truck": 0.7606202785555614
+      }
+    }
+  }
+}

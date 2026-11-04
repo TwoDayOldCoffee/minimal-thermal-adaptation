@@ -1,0 +1,11 @@
+# training / evaluation machine (versions used for the paper)
+torch==2.12.1
+ultralytics==8.4.132
+opencv-python
+numpy
+pycocotools
+matplotlib
+onnx
+onnxruntime
+# NanoDet-Plus: clone https://github.com/RangiLyu/nanodet and install it separately
+# Jetson Orin Nano: JetPack 6 (L4T R36.4.7), TensorRT 10.3, pycuda

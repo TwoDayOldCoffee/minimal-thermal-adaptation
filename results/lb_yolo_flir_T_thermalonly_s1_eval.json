@@ -1,0 +1,35 @@
+{
+  "run": {
+    "dataset": "flir",
+    "config": "T_thermalonly",
+    "seed": 1
+  },
+  "run_name": "lb_yolo_flir_T_thermalonly_s1",
+  "best_epoch": null,
+  "checkpoint": "C:\\Users\\LENOVO\\Documents\\Thermal_Fusion_Paper\\results\\lb_yolo_flir_T_thermalonly_s1\\weights\\best.pt",
+  "train_hours": 1.1147216956482993,
+  "eval": {
+    "night": {
+      "precision": 0.8360616914472289,
+      "recall": 0.7211068700525125,
+      "map50": 0.7935794997574703,
+      "map50_95": 0.41410317387517964,
+      "per_class_ap50": {
+        "car": 0.9335114632742687,
+        "person": 0.8680549045629058,
+        "bicycle": 0.5791721314352365
+      }
+    },
+    "full": {
+      "precision": 0.7928892131543779,
+      "recall": 0.6705917397806714,
+      "map50": 0.7599371377306658,
+      "map50_95": 0.3965956200833101,
+      "per_class_ap50": {
+        "car": 0.8911438763366576,
+        "person": 0.8071707503154044,
+        "bicycle": 0.5814967865399356
+      }
+    }
+  }
+}
